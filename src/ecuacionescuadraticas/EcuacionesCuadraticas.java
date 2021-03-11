@@ -40,7 +40,7 @@ public class EcuacionesCuadraticas {
                 double suma2 = 0;
 
                 for (int i = 0; i < k + 1; i++) {
-                    suma = suma2 + 1 / (Math.pow(y, i) / (factorial(i)));
+                    suma2 = suma2 + 1 / (Math.pow(y, i) / (factorial(i)));
                 }
                 System.out.println("");
                 System.out.println("resultado: " + suma2);
